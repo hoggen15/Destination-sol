@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 console = require("console")
 
 function love.load()
@@ -42,7 +41,6 @@ end
 
 function love.threaderror( thread, errorstr )
 
-=======
 function love.load()
 end
 
@@ -50,7 +48,6 @@ function love.draw()
 end
 
 function love.update(dt)
->>>>>>> origin/master
 end
 
 function love.quit()
