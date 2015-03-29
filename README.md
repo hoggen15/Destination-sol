@@ -1,4 +1,4 @@
-# Destination-sol
+# Destination Sol
 This project is based off of the game made by Milosh Petrov and his team, under the same name.
 
 http://store.steampowered.com/app/342980/
