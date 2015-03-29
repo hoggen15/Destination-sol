@@ -1,9 +1,17 @@
 function love.conf(t)
+<<<<<<< HEAD
     t.identity = "destinationsol-save" -- The name of the save directory (string)
     t.version = "0.9.2"                -- The LÃ–VE version this game was made for (string)
     t.console = true                   -- Attach a console (boolean, Windows only)
 
     t.window.title = "Destination Sol" -- The window title (string)
+=======
+    t.identity = nil                   -- The name of the save directory (string)
+    t.version = "0.9.2"                -- The LÖVE version this game was made for (string)
+    t.console = false                  -- Attach a console (boolean, Windows only)
+
+    t.window.title = "Untitled"        -- The window title (string)
+>>>>>>> origin/master
     t.window.icon = nil                -- Filepath to an image to use as the window's icon (string)
     t.window.width = 800               -- The window width (number)
     t.window.height = 600              -- The window height (number)
@@ -35,4 +43,8 @@ function love.conf(t)
     t.modules.timer = true             -- Enable the timer module (boolean)
     t.modules.window = true            -- Enable the window module (boolean)
     t.modules.thread = true            -- Enable the thread module (boolean)
+<<<<<<< HEAD
 end
+=======
+end 
+>>>>>>> origin/master
