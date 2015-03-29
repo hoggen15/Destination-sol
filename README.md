@@ -22,7 +22,7 @@ Plans include:
 * Ship customization
 
 Team:
-Jacob Harper / Hoggen   - Code
-Thomas Hall / Xiode     - Code, Art, Sound Design
+* <b>Jacob Harper</b> / Hoggen   - Code
+* <b>Thomas Hall</b> / Xiode     - Code, Art, Sound Design
 
-Contact us at: XiodeTheOne@gmail.com
+<b>Contact: XiodeTheOne@gmail.com</b>
