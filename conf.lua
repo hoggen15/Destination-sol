@@ -1,14 +1,9 @@
 function love.conf(t)
     t.identity = "destinationsol-save" -- The name of the save directory (string)
-    t.version = "0.9.2"                -- The LÃ–VE version this game was made for (string)
-    t.console = true                   -- Attach a console (boolean, Windows only)
-
     t.window.title = "Destination Sol" -- The window title (string
     t.identity = nil                   -- The name of the save directory (string)
     t.version = "0.9.2"                -- The LÖVE version this game was made for (string)
     t.console = false                  -- Attach a console (boolean, Windows only)
-
-    t.window.title = "Untitled"        -- The window title (string)
     t.window.icon = nil                -- Filepath to an image to use as the window's icon (string)
     t.window.width = 800               -- The window width (number)
     t.window.height = 600              -- The window height (number)
@@ -25,7 +20,6 @@ function love.conf(t)
     t.window.srgb = false              -- Enable sRGB gamma correction when drawing to the screen (boolean)
     t.window.x = nil                   -- The x-coordinate of the window's position in the specified display (number)
     t.window.y = nil                   -- The y-coordinate of the window's position in the specified display (number)
-
     t.modules.audio = true             -- Enable the audio module (boolean)
     t.modules.event = true             -- Enable the event module (boolean)
     t.modules.graphics = true          -- Enable the graphics module (boolean)

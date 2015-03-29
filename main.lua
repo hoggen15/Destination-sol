@@ -21,6 +21,7 @@ function love.mousereleased( x, y, button )
 end
 
 function love.keypressed( key, isrepeat )
+	isrepeat = true
 	if key == 'return' then
 		console.sendline()
 	elseif key == 'backspace' then
@@ -35,19 +36,10 @@ function love.focus( focus )
 end
 
 function love.textinput(text)
-	--console.sendline()
 	console.appendline(text)
 end
 
 function love.threaderror( thread, errorstr )
-
-function love.load()
-end
-
-function love.draw()
-end
-
-function love.update(dt)
 end
 
 function love.quit()
